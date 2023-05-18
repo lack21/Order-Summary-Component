@@ -94,7 +94,7 @@ body::after {
   text-decoration: none;
   opacity: 0.75;
 }
-.main .content .payment-btn {
+.main .content .btn {
   display: inline-block;
   width: 100%;
   font-size: 0.925rem;
@@ -106,32 +106,22 @@ body::after {
   -ms-border-radius: 0.5rem;
   -o-border-radius: 0.5rem;
   border: none;
+  cursor: pointer;
+}
+.main .content .btn.payment-btn {
   background-color: hsl(245, 75%, 52%);
   color: hsl(0, 0%, 100%);
-  cursor: pointer;
   box-shadow: 0 0.25rem 0.75rem hsla(245, 75%, 52%, 0.25);
 }
-.main .content .payment-btn:hover {
+.main .content .btn.payment-btn:hover {
   opacity: 0.75;
 }
-.main .content .cancel-btn {
+.main .content .btn.cancel-btn {
   margin-top: 0.5rem;
-  display: inline-block;
-  width: 100%;
-  font-size: 0.925rem;
-  font-weight: 700;
-  padding: 0.825rem;
-  border-radius: 0.5rem;
-  -webkit-border-radius: 0.5rem;
-  -moz-border-radius: 0.5rem;
-  -ms-border-radius: 0.5rem;
-  -o-border-radius: 0.5rem;
-  border: none;
   background-color: transparent;
   color: hsl(224, 23%, 55%);
-  cursor: pointer;
 }
-.main .content .cancel-btn:hover {
+.main .content .btn.cancel-btn:hover {
   color: hsl(223, 47%, 23%);
 }
 
